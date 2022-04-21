@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="background.webp" as="image" />
+    <title>AEviso</title>
+</head>
+<style>
+    html,
+    body,
+    div[data-role="page"] {
+        -webkit-font-smoothing: subpixel-antialiased;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    .main {
+        background-image: url("./background.webp");
+        background-color: #00000A;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .title {
+        width: 100%;
+        padding-top: 32%;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    @media only screen and (max-width: 720px) {
+        .title {
+            font-size: large;
+        }
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="title title-left">力景科技股份有限公司<br />AEviso Video Solution Co., Ltd.</div>
+        <div class="title title-right">景勳股份有限公司<br />AEviso DePro Solution Co., Ltd.<br />力景勳顥股份有限公司<br />AEviso
+            Technology Co., Ltd.</div>
+    </div>
+</body>
+
+</html>
